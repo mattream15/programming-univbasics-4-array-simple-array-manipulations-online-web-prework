@@ -41,3 +41,8 @@ def using_insert(array, string)
   using_insert = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott"]
   using_insert.insert("Death Cab for Cutie")
 end
+
+def using_uniq(array, string)
+  using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq.uniq("Jon Bellion")
+end
