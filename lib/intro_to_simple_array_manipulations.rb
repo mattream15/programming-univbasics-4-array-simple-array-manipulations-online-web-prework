@@ -33,18 +33,18 @@ def artists(array, string)
 artists(array, string) = ["Hozier", "Ariana Grande", "Usher"]
 
 def using_concat(array, string)
-  using_concat = ["Jon Bellion", "Frank Sinatra", "Travis Scott"]
+  using_concat(array, string) = ["Jon Bellion", "Frank Sinatra", "Travis Scott"]
   artists(array, string).using_concat(using_concat)
 end
 
 def using_insert(array, string)
-  using_insert = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott"]
-  using_insert.insert("Death Cab for Cutie")
+  using_insert(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott"]
+  using_insert(array, string).insert("Death Cab for Cutie")
 end
 
 def using_uniq(array, string)
-  using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
-  using_uniq.uniq("Jon Bellion")
+  using_uniq(array, string) = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq(array, string).uniq("Jon Bellion")
 end
 
 def artists(array, string)
@@ -58,10 +58,11 @@ def using_concat(array, string)
 end
 
 def using_uniq(array, string)
-  using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
-  using_uniq.delete("Jon Bellion")
+  using_uniq(array, string) = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq(array, string).delete("Jon Bellion")
 end
 
 def using_uniq(array, string)
-  using_uniq = ["Frida Kahlo", "Jon Bellion", 6, "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", 4, "Frank Sinatra", "Travis Scott", "Jon Bellion"]
-  using_uniq.delete("Jon Bellion")
+  using_uniq (array, string) = ["Frida Kahlo", "Jon Bellion", 6, "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq.delete_at(6)
+end
