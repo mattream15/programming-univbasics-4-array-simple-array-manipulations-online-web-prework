@@ -28,3 +28,11 @@ def using_shift_with_args(array, string)
   using_shift_with_args(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
   using_shift_with_args(array, string).shift("Frida Kahlo", "Pablo Picasso")
 end
+
+def artists(array, string)
+artists(array, string) = ["Hozier", "Ariana Grande", "Usher"]
+
+def using_concat(array, string)
+  using_concat = ["Jon Bellion", "Frank Sinatra", "Travis Scott"]
+  artists(array, string).using_concat(using_concat)
+end
