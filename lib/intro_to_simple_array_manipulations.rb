@@ -8,3 +8,8 @@ def artists(array, string)
   artists(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
 artists(array, string).pop
 end
+
+def artists(array, string)
+  artists(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+  artists(array, string).unshift("Mozart")
+end
