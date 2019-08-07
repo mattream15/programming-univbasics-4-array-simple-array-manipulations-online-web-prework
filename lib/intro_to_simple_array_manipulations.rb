@@ -23,3 +23,8 @@ def using_shift(array, string)
   using_shift(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
   using_shift(array, string).shift("Frida Kahlo")
 end
+
+def using_shift_with_args(array, string)
+  using_shift_with_args(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+  using_shift_with_args(array, string).shift("Frida Kahlo", "Pablo Picasso")
+end
