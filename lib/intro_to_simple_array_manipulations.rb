@@ -61,3 +61,7 @@ def using_uniq(array, string)
   using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
   using_uniq.delete("Jon Bellion")
 end
+
+def using_uniq(array, string)
+  using_uniq = ["Frida Kahlo", "Jon Bellion", 6, "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", 4, "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq.delete("Jon Bellion")
