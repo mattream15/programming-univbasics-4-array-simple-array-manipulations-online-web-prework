@@ -46,3 +46,13 @@ def using_uniq(array, string)
   using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
   using_uniq.uniq("Jon Bellion")
 end
+
+def artists(array, string)
+artists(array, string) = ["Hozier", "Ariana Grande", "Usher"]
+
+def using_concat(array, string)
+  using_concat(array, string) = ["Jon Bellion", "Frank Sinatra", "Travis Scott"]
+  artists(array, string).using_concat(using_concat(array, string))
+
+  using_artists(array, string).flatten(using_concat(array,string))
+end
