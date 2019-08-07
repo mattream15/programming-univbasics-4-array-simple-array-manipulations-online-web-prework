@@ -56,3 +56,8 @@ def using_concat(array, string)
 
   using_artists(array, string).flatten(using_concat(array,string))
 end
+
+def using_uniq(array, string)
+  using_uniq = ["Frida Kahlo", "Jon Bellion", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott", "Jon Bellion"]
+  using_uniq.delete("Jon Bellion")
+end
