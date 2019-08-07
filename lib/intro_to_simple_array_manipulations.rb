@@ -36,3 +36,8 @@ def using_concat(array, string)
   using_concat = ["Jon Bellion", "Frank Sinatra", "Travis Scott"]
   artists(array, string).using_concat(using_concat)
 end
+
+def using_insert(array, string)
+  using_insert = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang", "Jon Bellion", "Frank Sinatra", "Travis Scott"]
+  using_insert.insert("Death Cab for Cutie")
+end
