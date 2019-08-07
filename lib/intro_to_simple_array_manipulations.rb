@@ -13,3 +13,7 @@ def artists(array, string)
   artists(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
   artists(array, string).unshift("Mozart")
 end
+
+def pop_with_args(array, string)
+  pop_with_args(array, string) = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+  pop_with_args(array, string).pop("")
